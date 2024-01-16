@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Login Details</h1>
+  
+<ul>
+  {% for x in mylogin %}
+    <li>{{ x.login }} {{ x.pwd }}</li>
+  {% endfor %}
+</ul>
+
+</body>
+</html>
